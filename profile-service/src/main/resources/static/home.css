@@ -1,0 +1,203 @@
+/* screen - home */
+
+.home {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 23px 0;
+  width: 1440px;
+}
+
+.home .flex-row {
+  align-items: center;
+  display: flex;
+  height: 85px;
+  justify-content: flex-end;
+  margin-left: 7.0px;
+  min-width: 1335px;
+}
+
+.home .overlap-group-1 {
+  height: 81px;
+  margin-top: 1.97px;
+  position: relative;
+  width: 131px;
+}
+
+.home .vector-1 {
+  height: 81px;
+  left: 30px;
+  position: absolute;
+  top: 0;
+  width: 67px;
+}
+
+.home .job-quest {
+  left: 0;
+  top: 26px;
+  width: 131px;
+}
+
+.home .log-out {
+  cursor: pointer;
+  margin-left: 1018px;
+  margin-top: 29.0px;
+  min-height: 22px;
+  width: 76px;
+}
+
+.home .profile {
+  align-self: flex-end;
+  cursor: pointer;
+  margin-left: 40px;
+  min-width: 70px;
+}
+
+.home .overlap-group1 {
+  border-radius: 35px;
+  height: 70px;
+  position: relative;
+  width: 70px;
+}
+
+.home .profile-icon {
+  flex-direction: column;
+  gap: 1px;
+  left: 22px;
+  min-height: 37px;
+  position: absolute;
+  top: 16px;
+  width: 25px;
+}
+
+.home .vector-4 {
+  height: 1px;
+  margin-top: 22px;
+  object-fit: cover;
+  width: 1437px;
+}
+
+.home .flex-row-1 {
+  align-items: flex-end;
+  display: flex;
+  gap: 124px;
+  margin-left: 10.0px;
+  margin-top: 152px;
+  min-width: 1240px;
+}
+
+.home .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 512px;
+  width: 420px;
+}
+
+.home .welcome-jane {
+  color: var(--blue-dianne);
+  font-family: var(--font-family-lato);
+  font-size: 96px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 235px;
+  width: 420px;
+}
+
+.home .log-in {
+  align-self: center;
+  margin-right: 138.0px;
+  margin-top: 15px;
+  min-height: 26px;
+  width: 118px;
+}
+
+.home .group-10 {
+  margin-left: 17px;
+  margin-top: 175px;
+}
+
+.home .overlap-group {
+  height: 61px;
+  position: relative;
+  width: 216px;
+}
+
+.home .rectangle {
+  height: 61px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 206px;
+}
+
+.home .job-search {
+  left: 23px;
+  top: 11px;
+  width: 193px;
+}
+
+.home .overlap-group4 {
+  height: 595px;
+  position: relative;
+  width: 696px;
+}
+
+.home .polygon-2 {
+  height: 530px;
+  left: 0;
+  position: absolute;
+  top: 42px;
+  width: 553px;
+}
+
+.home .polygon-3 {
+  height: 403px;
+  left: 299px;
+  position: absolute;
+  top: 0;
+  width: 366px;
+}
+
+.home .group-9 {
+  height: 61px;
+  left: 478px;
+  position: absolute;
+  top: 534px;
+}
+
+.home .edit-profile {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+  width: 193px;
+}
+
+.home .group {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  min-width: 218px;
+}
+
+.home .job {
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+}
+
+.home .log {
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .profile-1 {
+  align-items: flex-start;
+  display: flex;
+}

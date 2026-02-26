@@ -1,0 +1,58 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,800|Inter:400");
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-flex-center {
+  align-self: flex-center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ellipse-2 {
+  background-color: var(--alto);
+  border-radius: 7.47px;
+  height: 15px;
+  margin-left: 4.98px;
+  width: 15px;
+}
+
+.vector-3 {
+  height: 21px;
+  margin-left: 0;
+  width: 25px;
+}
+
+.ellipse-3 {
+  border: 1.08px solid;
+  border-color: var(--alto);
+  border-radius: 35px;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}

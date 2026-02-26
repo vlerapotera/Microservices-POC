@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+  <meta name="og:type" content="website" />
+  <meta name="twitter:card" content="photo" />
+  <link rel="stylesheet" type="text/css" href="../static/editprofile.css" />
+  <link rel="stylesheet" type="text/css" href="../static/styleguide.css" />
+  <link rel="stylesheet" type="text/css" href="../static/globals.css" />
+</head>
+
+<body style="margin: 0; background: #ffffff">
+  <input type="hidden" id="anPageName" name="page" value="editprofile" />
+  <div class="container-center-horizontal">
+    <div class="editprofile screen">
+      <div class="flex-row">
+        <div class="overlap-group">
+          <img class="vector-1" src="../static/img/vector-1-6.svg" alt="Vector 1" />
+          <div class="job-quest lato-extra-bold-william-19-2px">JobQuest</div>
+        </div>
+        <a href="http://localhost:8080/logout">
+          <div class="log-out lato-normal-fiord-20px">Log out</div>
+        </a>
+        <div class="overlap-group1">
+          <div class="profile-icon profile-1">
+            <div class="ellipse-2"></div>
+            <img class="vector-3" src="../static/img/vector-3.svg" alt="Vector 3" />
+          </div>
+          <div class="ellipse-3"></div>
+        </div>
+      </div>
+      <img class="vector-4" src="../static/img/vector-4.svg" alt="Vector 4" />
+      <div class="overlap-group8">
+        <div class="rectangle-22">
+          <label for="proPic" style="cursor: pointer;">
+            <input type="file" id="proPic" name="proPic" accept="image/*" style="display: none;">
+            <img class="vector-3-1" src="../static/img/user.png" alt="user-photo" style="width: 55%;height: 55%;">
+          </label>
+        </div>
+
+        <form action="http://localhost:8082/profile" method="POST">
+          <!-- ... (name and email input fields) ... -->
+          <div class="editprofile-item lato-normal-black-40px">Name</div>
+          <input type="text" name="name" th:text="${name}">
+          <div class="editprofile-item lato-normal-black-40px">Email</div>
+          <input type="text" name="email">
+          <div id="experienceContainer">
+
+            <!-- Initial experience input fields -->
+          </div>
+          <button type="button" onclick="addExperienceField()">Add Experience</button>
+
+          <div id="educationContainer">
+            <!-- Initial education input fields -->
+          </div>
+          <button type="button" onclick="addEducationField()">Add Education</button>
+
+          <div class="skills lato-normal-black-40px">Skills</div>
+          <input type="text" name="skills">
+
+          <input type="file" name="cv" accept=".pdf" style="margin-top: 10px; margin-bottom: 10px;">
+
+          <input type="submit" value="Save" id="submit-form">
+        </form>
+      </div>
+    </div>
+    <script>
+      function addExperienceField() {
+        let container = document.getElementById('experienceContainer');
+        let newExperience = document.createElement('div');
+        newExperience.innerHTML = `
+                <div class="role lato-normal-black-40px">Role</div>
+                <input type="text" name="experienceRole">
+                <div class="name-of-company lato-normal-black-40px">Name of Company</div>
+                <input type="text" name="experienceCompanyName">
+                <div class="start-date lato-normal-black-40px">Start Date</div>
+                <input type="date" name="experienceStartDate">
+                <div class="end-date lato-normal-black-40px">End Date</div>
+                <input type="date" name="experienceEndDate">
+                <div class="description lato-normal-black-40px">Description</div>
+                <textarea name="experienceDescription"></textarea>
+            `;
+        container.appendChild(newExperience);
+      }
+
+      function addEducationField() {
+        let container = document.getElementById('educationContainer');
+        let newEducation = document.createElement('div');
+        newEducation.innerHTML = `
+                <div class="level-of-education">Level of Education</div>
+                <input type="text" name="educationLevel">
+                <div class="name-of-institution name-of">Name of Institution</div>
+                <input type="text" name="educationInstitutionName">
+                <div class="graduation-date">Graduation Date</div>
+                <input type="date" name="educationGraduationDate">
+            `;
+        container.appendChild(newEducation);
+      }
+    </script>
+  </div>
+</body>
+
+</html>

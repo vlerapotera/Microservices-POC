@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="../static/jobdescription.css" />
+    <link rel="stylesheet" type="text/css" href="../static/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="../static/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="jobdescription" />
+    <div class="container-center-horizontal">
+      <div class="jobdescription screen">
+        <div class="flex-row">
+          <a href="http://localhost:8080/home">
+            <div class="group-2 group">
+              <div class="overlap-group">
+                <img class="vector-1" src="../static/img/vector-1.svg" alt="Vector 1" />
+                <div class="job-quest lato-extra-bold-william-19-2px">JobQuest</div>
+              </div>
+            </div></a
+          ><a href="http://localhost:8080/logout" class="align-self-flex-center"
+            ><div class="log-out lato-normal-fiord-20px">Log out</div> </a
+          ><a href="http://localhost:8082/profile" class="align-self-flex-end">
+            <div class="profile profile-1">
+              <div class="overlap-group1">
+                <div class="profile-icon profile-1">
+                  <div class="ellipse-2"></div>
+                  <img class="vector-3" src="../static/img/vector-3.svg" alt="Vector 3" />
+                </div>
+                <div class="ellipse-3"></div>
+              </div></div
+          ></a>
+        </div>
+        <img class="vector-4" src="../static/img/vector-4.svg" alt="Vector 4" />
+        <div class="job-details-container">
+        <h1 class="title" th:text="${job.title}">Job Title</h1>
+        <p class="name">
+          <span th:text="${job.company}">Company Name</span><br />
+          <span th:text="${job.address}">Location</span><br />
+          <span th:text="${job.jobType}">Job Type</span>
+        </p>
+        <a href="http://localhost:8080/home">
+          <div class="group-11 group">
+            <div class="overlap-group2">
+              <img class="rectangle-7" src="../static/img/rectangle-7.svg" alt="Rectangle 7" />
+              <div class="apply-now">Apply Now</div>
+            </div>
+          </div>
+        </a>
+        <p class="our-client-uks-lea" th:text="${job.longDesc}">
+          Long Description
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

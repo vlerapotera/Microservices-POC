@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="../static/home.css" />
+    <link rel="stylesheet" type="text/css" href="../static/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="../static/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="home" />
+    <div class="container-center-horizontal">
+      <div class="home screen">
+        <div class="flex-row">
+          <div class="overlap-group-1">
+            <img class="vector-1" src="../static/img/vector-1-5.svg" alt="Vector 1" />
+            <div class="job-quest job lato-extra-bold-william-19-2px">JobQuest</div>
+          </div>
+          <a th:href="@{/logout}"><div class="log-out log lato-normal-fiord-20px">Log out</div> </a
+          ><a href="http://localhost:8082/profile" class="align-self-flex-end">
+            <div class="profile profile-1">
+              <div class="overlap-group1">
+                <div class="profile-icon profile-1">
+                  <div class="ellipse-2"></div>
+                  <img class="vector-3" src="../static/img/vector-3.svg" alt="Vector 3" />
+                </div>
+                <div class="ellipse-3"></div>
+              </div></div
+          ></a>
+        </div>
+        <img class="vector-4" src="../static/img/vector-4.svg" alt="Vector 4" />
+        <div class="flex-row-1">
+          <div class="flex-col">
+            <h1 class="welcome-jane">Welcome,<br th:text="${name}"/></h1>
+            <a href="http://localhost:8081/jobs/all">
+              <div class="group-10 group">
+                <div class="overlap-group">
+                  <img class="rectangle" src="../static/img/rectangle-2.svg" alt="Rectangle 6" />
+                  <div class="job-search job lato-normal-white-32px">Job Search</div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="overlap-group4">
+            <img class="polygon-2" src="../static/img/polygon-2.svg" alt="Polygon 2" />
+            <img class="polygon-3" src="../static/img/polygon-3.svg" alt="Polygon 3" />
+            <a href="http://localhost:8082/profile">
+              <div class="group-9 group">
+                <div class="overlap-group">
+                  <img class="rectangle" src="../static/img/rectangle-7-1.svg" alt="Rectangle 7" />
+                  <div class="edit-profile lato-normal-white-32px">Edit Profile</div>
+                </div>
+              </div></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

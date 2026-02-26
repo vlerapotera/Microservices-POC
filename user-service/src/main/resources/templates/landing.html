@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JobQuest Home</title>
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="../static/landing.css" />
+    <link rel="stylesheet" type="text/css" href="../static/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="../static/globals.css" />
+  </head>
+  <body style="margin: 0">
+    <input type="hidden" id="anPageName" name="page" value="landing" />
+    <div class="container-center-horizontal">
+      <div class="landing screen">
+        <div class="group-container">
+          <div class="overlap-group3">
+            <div class="rectangle-1"></div>
+            <p class="discover-your-next-career-opportunity">Discover your next career opportunity</p>
+            <div class="overlap-group2">
+              <img class="vector-1" src="../static/img/vector-1-1.svg" alt="Vector 1" />
+              <h1 class="title">JobQuest</h1>
+            </div>
+          </div>
+          <div class="overlap-group">
+            <a th:href="@{/login}"><div class="log-in lato-normal-white-32px">Log In</div> </a>
+          </div>
+          <a th:href="@{/signup}">
+            <div class="group-6">
+              <div class="overlap-group1"><div class="sign-up lato-normal-white-32px">Sign Up</div></div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

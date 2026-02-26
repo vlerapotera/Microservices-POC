@@ -22,3 +22,47 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Configuration Files (containing environment-specific or sensitive data)
+#######################################################################
+application.properties
+application.yml
+
+# Also include profile-specific variants, which are often used for
+# local development, testing, and production environments
+application-*.properties
+application-*.yml
+
+*.dll
+*.so
+*.jnilib
+
+# Maven
+#######
+target/
+pom.xml.tag
+pom.xml.bak
+pom.xml.versions
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+dependency-check-report.html
+
+# Gradle (If you ever switch or use Kotlin/Groovy)
+.gradle
+build/
+
+# IDE files
+###########
+
+# IntelliJ / Android Studio
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Operating System Files
+########################
+.DS_Store
+Thumbs.db

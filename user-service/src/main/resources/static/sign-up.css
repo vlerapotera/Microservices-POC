@@ -1,0 +1,270 @@
+/* screen - sign-up */
+input {
+  height: 100%;
+  width: 100%;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+
+
+.sign-up {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 187px;
+  max-width: 1215px;
+}
+
+.sign-up .group-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 97px;
+  margin-left: 38.47px;
+  min-width: 177px;
+  padding: 0 0.0px;
+}
+
+.sign-up .overlap-group {
+  height: 108px;
+  margin-bottom: -14.94px;
+  position: relative;
+  width: 175px;
+}
+
+.sign-up .vector-1 {
+  height: 108px;
+  left: 40px;
+  position: absolute;
+  top: 0;
+  width: 90px;
+}
+
+.sign-up .job-quest {
+  color: var(--william);
+  font-family: var(--font-family-lato);
+  font-size: 25.6px;
+  font-weight: 800;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 35px;
+  width: 175px;
+}
+
+.sign-up .full-name {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 241.0px;
+  margin-top: 45px;
+  min-height: 28px;
+  width: 153px;
+}
+
+.sign-up .overlap-group4 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  height: 40px;
+  margin-top: 16px;
+}
+
+.sign-up .name {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 36px;
+  width: 262px;
+}
+
+.sign-up .email {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 241.0px;
+  margin-top: 14px;
+  min-height: 28px;
+  width: 153px;
+}
+
+.sign-up .overlap-group3 {
+  align-items: flex-end;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  height: 68px;
+  margin-top: 16px;
+  min-width: 394px;
+  padding: 12px 14px;
+}
+
+.sign-up .janedoeemailcom {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 42px;
+  width: 218px;
+}
+
+.sign-up .phone-number {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 216.0px;
+  margin-top: 14px;
+  min-height: 28px;
+  width: 178px;
+}
+
+.sign-up .overlap-group2 {
+  align-items: flex-end;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  height: 68px;
+  margin-top: 11px;
+  min-width: 394px;
+  padding: 17px 22px;
+}
+
+.sign-up .phone {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 33px;
+  width: 267px;
+}
+
+.sign-up .flex-row {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  gap: 218px;
+  height: 115px;
+  margin-top: 29px;
+  min-width: 732px;
+}
+
+.sign-up .title {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 26px;
+  width: 118px;
+}
+
+.sign-up .overlap-group5 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--black);
+  display: flex;
+  height: 68px;
+  margin-top: 16px;
+  min-width: 394px;
+  padding: 14px 18px;
+}
+
+.sign-up .group {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  left: 0;
+  min-height: 106px;
+  position: absolute;
+  top: 0;
+  width: 396px;
+}
+
+.sign-up .password {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  width: 226px;
+}
+
+.sign-up .rectangle-6 {
+  border: 1px solid;
+  border-color: var(--black);
+  height: 68px;
+  width: 394px;
+}
+
+.sign-up .text-1 {
+  left: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 64px;
+  width: 227px;
+}
+
+.sign-up .overlap-group6 {
+  height: 106px;
+  margin-left: 2.0px;
+  margin-top: 15px;
+  position: relative;
+  width: 396px;
+}
+
+.sign-up .status {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 28px;
+  width: 226px;
+}
+
+.sign-up .polygon-1 {
+  height: 24px;
+  left: 341px;
+  position: absolute;
+  top: 63px;
+  width: 31px;
+}
+
+.sign-up .applicant {
+  left: 19px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 54px;
+  width: 215px;
+}
+
+.sign-up .group-3 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-right: 18.0px;
+  min-width: 208px;
+}
+
+.sign-up .overlap-group1 {
+  height: 61px;
+  justify-content: flex-end;
+  min-width: 206px;
+  padding: 9px 2px;
+  border-radius: 35px;
+  background-color: orange;
+  color: white;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.sign-up .sign-up-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 37px;
+  width: 155px;
+}
+.sign-up .rectangle {
+  border: 1px solid;
+  border-color: var(--green-vogue-3);
+  border-radius: 3px;
+  height: 51px;
+  margin-top: 1px;
+  width: 310px;
+}

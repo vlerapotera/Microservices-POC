@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="../static/alljobs.css" />
+    <link rel="stylesheet" type="text/css" href="../static/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="../static/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="alljobs" />
+    <div class="container-center-horizontal">
+      <div class="alljobs screen">
+        <div class="flex-row">
+          <a href="http://localhost:8080/home">
+            <div class="group-2">
+              <div class="overlap-group-2">
+                <img class="vector-1" src="../static/img/vector-1-4.svg" alt="Vector 1" />
+                <div class="job-quest lato-extra-bold-william-19-2px">JobQuest</div>
+              </div>
+            </div></a
+          ><a href="http://localhost:8080/logout" class="align-self-flex-center"
+            ><div class="log-out lato-normal-fiord-20px">Log out</div>
+          </a>
+          <div class="overlap-group1">
+            <div class="profile-icon">
+              <div class="ellipse-2"></div>
+              <img class="vector-3" src="../static/img/vector-3.svg" alt="Vector 3" />
+            </div>
+            <div class="ellipse-3"></div>
+          </div>
+        </div>
+        <img class="vector-4" src="../static/img/vector-4.svg" alt="Vector 4" />
+        <div class="group-container">
+          <div class="overlap-group5">
+            <div class="marketing marketing-1">Marketing</div>
+            <div class="group-4">
+              <div class="ellipse-5"></div>
+              <div class="rectangle-21"></div>
+            </div>
+          </div>
+          <div class="group-15">
+            <div class="overlap-group">
+              <img class="line-1 line-2" src="../static/img/line-1.svg" alt="Line 1" />
+              <div class="rectangle-9"></div>
+            </div>
+            <div class="overlap-group2">
+              <img class="line line-2" src="../static/img/line-3.svg" alt="Line 3" />
+              <div class="rectangle-10"></div>
+            </div>
+            <div class="overlap-group">
+              <img class="line line-2" src="../static/img/line-2.svg" alt="Line 2" />
+              <div class="rectangle-11"></div>
+            </div>
+            <div class="filter">Filter</div>
+          </div>
+        </div>
+        <div class="group-container-1">
+          <div class="job-container-wrapper">
+            <div th:each="job,jobIndex : ${jobs}" th:id="${'job-' + jobIndex.index}" class="job-container" >
+              <form th:action="@{/jobs}" method="post" >
+                <input type="hidden" th:name="jobId" th:value="${job.id}" />
+              <div class="group-12" onclick="submitJobForm(this)">
+                <div class="overlap-group-1">
+                  <h1 class="title lato-normal-blue-dianne-24px" th:text="${job.title}">Job Title</h1>
+                  <div class="name-2 lato-normal-black-20px" th:text="${job.company}">Company Name</div>
+                  <div class="x0-a lato-normal-black-20px" th:text="${job.jobType}">Job Type</div>
+                  <p class="ensure-demand-genera lato-normal-black-16px" th:text="${job.shortDesc}">Short Description</p>
+                </div>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  function submitJobForm(jobGroupDiv) {
+    var form = jobGroupDiv.closest('form');
+    if (form) {
+      form.submit();
+    }
+  }
+</script>
+
+
+
+

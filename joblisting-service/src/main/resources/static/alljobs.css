@@ -1,0 +1,493 @@
+/* screen - alljobs */
+
+.alljobs {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 30px 0;
+  width: 1440px;
+}
+
+.alljobs .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 85px;
+  margin-left: 7.0px;
+  /*min-width: 1335px;*/
+  min-height: unset;
+}
+
+.alljobs .group-2 {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  height: 73px;
+  min-width: 133px;
+  padding: 0 0.0px;
+  margin-left: 0;
+}
+
+.alljobs .overlap-group-2 {
+  height: 81px;
+  margin-bottom: -11.19px;
+  position: relative;
+  width: 131px;
+}
+
+.alljobs .vector-1 {
+  height: 81px;
+  left: 30px;
+  position: absolute;
+  top: 0;
+  width: 67px;
+}
+
+.alljobs .job-quest {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+  width: 131px;
+}
+
+.alljobs .log-out {
+  align-self: center;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1016px;
+  /*margin-top: 29.0px;*/
+  min-height: 22px;
+  width: 76px;
+}
+
+.alljobs .overlap-group1 {
+  align-self: flex-end;
+  border-radius: 35px;
+  height: 70px;
+  margin-left: auto;
+  position: relative;
+  width: 70px;
+}
+
+.alljobs .profile-icon {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  left: 22px;
+  min-height: 37px;
+  position: absolute;
+  top: 16px;
+  width: 25px;
+}
+
+.alljobs .vector-4 {
+  height: 1px;
+  margin-top: 22px;
+  object-fit: cover;
+  width: 1437px;
+}
+
+.alljobs .group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 27px;
+  margin-left: 19.83px;
+  margin-top: 90px;
+  min-width: 360px;
+}
+
+.alljobs .overlap-group5 {
+  align-items: center;
+  background-image: url(img/rectangle-20.svg);
+  background-size: 100% 100%;
+  display: flex;
+  gap: 21px;
+  height: 54px;
+  justify-content: flex-end;
+  min-width: 278px;
+  padding: 14px 19px;
+  margin-top: 40px;
+}
+
+.alljobs .marketing {
+  align-self: flex-end;
+  color: #000000b8;
+  font-family: var(--font-family-lato);
+  font-size: 17.5px;
+  font-weight: 400;
+  min-height: 24px;
+  width: 200px;
+}
+
+.alljobs .group-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.34px;
+  min-height: 17px;
+  width: 18px;
+}
+
+.alljobs .ellipse-5 {
+  border: 11.42px solid;
+  border-color: #c3c3c3;
+  border-radius: 6.25px;
+  height: 13px;
+  margin-right: 5.49px;
+  width: 13px;
+}
+
+.alljobs .rectangle-21 {
+  background-color: #c3c3c3;
+  height: 1px;
+  margin-left: 9.92px;
+  transform: rotate(44.15deg);
+  width: 10px;
+}
+
+.alljobs .group-15 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 54px;
+  padding: 0 0.0px;
+  width: 55px;
+}
+
+.alljobs .overlap-group {
+  height: 12px;
+  margin-right: 7.87px;
+  position: relative;
+  width: 47px;
+  min-height: unset;
+}
+
+.alljobs .line-1 {
+  top: 4px;
+}
+
+.alljobs .rectangle-9 {
+  background-color: var(--alto);
+  border: 1.17px solid;
+  border-color: var(--black-5);
+  height: 12px;
+  left: 20px;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.alljobs .overlap-group2 {
+  height: 12px;
+  margin-right: 7.87px;
+  margin-top: 1px;
+  position: relative;
+  width: 47px;
+}
+
+.alljobs .line {
+  top: 2px;
+}
+
+.alljobs .rectangle-10 {
+  background-color: var(--alto);
+  border: 1.17px solid;
+  border-color: var(--black-5);
+  height: 12px;
+  left: 6px;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.alljobs .rectangle-11 {
+  background-color: var(--alto);
+  border: 1.17px solid;
+  border-color: var(--black-5);
+  height: 12px;
+  left: 29px;
+  position: absolute;
+  top: 0;
+  width: 8px;
+}
+
+.alljobs .filter {
+  color: #000000b5;
+  font-family: var(--font-family-lato);
+  font-size: 14.1px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 3.87px;
+  margin-top: 1px;
+  min-height: 16px;
+  width: 47px;
+}
+
+.alljobs .group-container-1 {
+  height: auto;
+  margin-right: 10.0px;
+  margin-top: 85px;
+  position: relative;
+  width: 1056px;
+}
+.alljobs .group-12 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(447px, 1fr));
+  grid-gap: 20px;
+  height: auto;
+  cursor: pointer;
+}
+.alljobs .overlap-group-1 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  min-height: 365px;
+  padding: 35px 28px;
+  width: 447px;
+}
+.alljobs .job-container-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0;
+  gap: 20px;
+}
+
+.alljobs .job-container {
+  flex: 1 0 calc(50% - 10px);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.alljobs .title {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 8.0px;
+  min-height: 65px;
+  width: 373px;
+}
+
+.alljobs .x0-a {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 23px;
+  min-height: 25px;
+  width: 225px;
+}
+
+.alljobs .ensure-demand-genera {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 29px;
+  min-height: 109px;
+  width: 360px;
+}
+
+.alljobs .overlap-group-3 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  left: 606px;
+  min-height: 365px;
+  padding: 35px 28px;
+  position: absolute;
+  top: 499px;
+  width: 447px;
+}
+
+.alljobs .email-marketing-specialist {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 8.0px;
+  min-height: 65px;
+  width: 373px;
+}
+
+.alljobs .ensure-demand-genera-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 29px;
+  min-height: 109px;
+  width: 360px;
+}
+
+.alljobs .group-13 {
+  align-items: flex-end;
+  display: flex;
+  gap: 159px;
+  height: 1349px;
+  left: 0;
+  min-width: 1056px;
+  position: absolute;
+  top: 0;
+}
+
+.alljobs .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 125px;
+  min-height: 855px;
+  width: 447px;
+}
+
+.alljobs .marketing-manager {
+  align-self: center;
+  margin-right: 8.0px;
+  min-height: 65px;
+  width: 373px;
+}
+
+.alljobs .bms-performance-ltd {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 11px;
+  min-height: 23px;
+  width: 224px;
+}
+
+.alljobs .superb-opportunity-t {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 29px;
+  min-height: 109px;
+  width: 360px;
+}
+
+.alljobs .marketing-officer {
+  align-self: center;
+  margin-right: 8.0px;
+  min-height: 65px;
+  width: 373px;
+}
+
+.alljobs .police-now {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 11px;
+  min-height: 23px;
+  width: 224px;
+}
+
+.alljobs .competitive-salary-o {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 29px;
+  min-height: 109px;
+  width: 360px;
+}
+
+.alljobs .overlap-group-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 619px;
+  min-height: 1349px;
+  width: 450px;
+}
+
+.alljobs .overlap-group-4 {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3px;
+  min-height: 365px;
+  padding: 35px 28px;
+  width: 447px;
+}
+
+.alljobs .digital-marketing-executive {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 8.0px;
+  min-height: 49px;
+  width: 373px;
+}
+
+.alljobs .builder-depot {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 27px;
+  min-height: 23px;
+  width: 224px;
+}
+
+.alljobs .we-are-amidst-a-busi {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 29px;
+  min-height: 109px;
+  width: 360px;
+}
+
+.alljobs .global-director {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 8.0px;
+  min-height: 65px;
+  width: 373px;
+}
+
+.alljobs .multiverse {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 11px;
+  min-height: 23px;
+  width: 224px;
+}
+
+.alljobs .own-and-execute-on-t {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 29px;
+  min-height: 109px;
+  width: 360px;
+}
+
+.alljobs .line-2 {
+  height: 7px;
+  left: 0;
+  position: absolute;
+  width: 47px;
+}
+
+.alljobs .marketing-1 {
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.alljobs .name-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  margin-top: 11px;
+  min-height: 23px;
+  width: 224px;
+}

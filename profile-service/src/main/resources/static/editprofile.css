@@ -1,0 +1,480 @@
+/* screen - editprofile */
+
+.editprofile {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 5100px;
+  padding: 23px 0;
+  width: 1440px;
+}
+
+.editprofile .flex-row {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  height: 85px;
+  justify-content: flex-end;
+  margin-left: 7.0px;
+}
+
+.editprofile .overlap-group {
+  height: 81px;
+  margin-top: 1.97px;
+  position: relative;
+}
+
+label {
+  text-align: center;
+  cursor: pointer;
+}
+
+.editprofile .vector-1 {
+  height: 81px;
+  left: 30px;
+  position: absolute;
+  top: 0;
+  width: 67px;
+}
+
+.editprofile .job-quest {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+  width: 131px;
+}
+
+.editprofile .log-out {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1018px;
+  margin-top: 29.0px;
+  min-height: 22px;
+  width: 76px;
+}
+
+.editprofile .overlap-group1 {
+  align-self: flex-end;
+  border-radius: 35px;
+  height: 70px;
+  margin-left: 40px;
+  position: relative;
+  width: 70px;
+}
+
+.editprofile .profile-icon {
+  gap: 1px;
+  left: 22px;
+  min-height: 37px;
+  top: 16px;
+  width: 25px;
+}
+
+.editprofile .vector-4 {
+  height: 1px;
+  margin-left: 1.5px;
+  margin-top: 22px;
+  object-fit: cover;
+  width: 1437px;
+}
+
+.editprofile .overlap-group8 {
+  align-self: center;
+  height: 512px;
+  margin-right: 23.0px;
+  margin-top: 70px;
+  position: relative;
+  width: 30%;
+}
+
+.editprofile .rectangle-22 {
+  border: 1px solid;
+  border-color: #000000c7;
+  border-radius: 23px;
+  height: 401px;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editprofile .profile {
+  background-color: var(--alto);
+  border-radius: 155.5px;
+  gap: 4px;
+  left: 468px;
+  min-height: 311px;
+  padding: 73.9px 100.9px;
+  top: 201px;
+  width: 311px;
+}
+
+.editprofile .editprofile-item {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.editprofile .ellipse-2-1 {
+  align-self: center;
+  background-color: var(--white);
+  border-radius: 33.21px;
+  height: 66px;
+  margin-left: 1.46px;
+  width: 66px;
+}
+
+.editprofile .vector-3-1 {
+  height: 92px;
+  width: 109px;
+}
+
+input {
+  width: 100%;
+}
+
+button, #submit-form {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  height: 30px;
+  justify-content: flex-end;
+  min-width: 50px;
+  background-color: orange;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+}
+
+.editprofile .rectangle-23 {
+  border: 1px solid;
+  border-color: var(--black-4);
+  height: 102px;
+  margin-left: 138px;
+  margin-top: 18px;
+  width: 719px;
+}
+
+.editprofile .overlap-group10 {
+  align-items: flex-end;
+  border: 1px solid;
+  border-color: var(--black-4);
+  display: flex;
+  height: 102px;
+  margin-left: 138px;
+  margin-top: 18px;
+  min-width: 719px;
+  padding: 19px 38px;
+}
+
+.editprofile .personemailcom {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 62px;
+  width: 368px;
+}
+
+.editprofile .overlap-group-container {
+  gap: 36px;
+  margin-left: 138px;
+  margin-top: 145px;
+  min-width: 826px;
+}
+
+.editprofile .overlap-group9 {
+  height: 608px;
+  position: relative;
+  width: 727px;
+}
+
+.editprofile .polygon-4 {
+  height: 41px;
+  left: 627px;
+  position: absolute;
+  top: 99px;
+  width: 47px;
+}
+
+.editprofile .group-18 {
+  flex-direction: column;
+  left: 0;
+  min-height: 608px;
+  position: absolute;
+  top: 0;
+  width: 727px;
+}
+
+.editprofile .level-of-education {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 3px;
+  min-height: 48px;
+  width: 357px;
+}
+
+.editprofile .rectangle-2 {
+  border: 1px solid;
+  border-color: var(--black-4);
+  height: 102px;
+  margin-top: 17px;
+  width: 719px;
+}
+
+.editprofile .name-of-institution {
+  margin-left: 3px;
+  margin-top: 42px;
+}
+
+.editprofile .graduation-date {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 3px;
+  margin-top: 65px;
+  min-height: 48px;
+  width: 357px;
+}
+
+.editprofile .overlap-group2 {
+  align-items: flex-end;
+  border: 1px solid;
+  border-color: var(--black-4);
+  display: flex;
+  height: 102px;
+  margin-top: 17px;
+  min-width: 719px;
+  padding: 17px 40px;
+}
+
+.editprofile .ddmmyyyy {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 62px;
+  width: 319px;
+}
+
+.editprofile .overlap-group3 {
+  height: 63px;
+  margin-top: 81px;
+  position: relative;
+  width: 63px;
+}
+
+.editprofile .rectangle-28 {
+  background-color: var(--alto);
+  border-radius: 27px;
+  height: 63px;
+  left: 25px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.editprofile .rectangle-29 {
+  background-color: var(--alto);
+  border-radius: 27px;
+  height: 63px;
+  left: 25px;
+  position: absolute;
+  top: 0;
+  transform: rotate(-90.00deg);
+  width: 12px;
+}
+
+.editprofile .role {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 135px;
+  margin-top: 225px;
+  min-height: 48px;
+  width: 357px;
+}
+
+.editprofile .flex-row-1 {
+  gap: 44px;
+  margin-left: 132px;
+  min-width: 826px;
+}
+
+.editprofile .rectangle-2-1 {
+  border: 1px solid;
+  border-color: var(--black-4);
+  height: 102px;
+  width: 719px;
+}
+
+.editprofile .overlap-group4 {
+  height: 63px;
+  margin-bottom: 7.0px;
+  position: relative;
+  width: 63px;
+}
+
+.editprofile .name-of-company {
+  margin-left: 135px;
+  margin-top: 41px;
+}
+
+.editprofile .rectangle-26 {
+  border: 1px solid;
+  border-color: var(--black-4);
+  height: 102px;
+  margin-left: 132px;
+  margin-top: 18px;
+  width: 719px;
+}
+
+.editprofile .employment-duration {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 135px;
+  margin-top: 64px;
+  min-height: 48px;
+  width: 443px;
+}
+
+.editprofile .overlap-group7 {
+  align-items: flex-end;
+  border: 1px solid;
+  border-color: var(--black-4);
+  display: flex;
+  height: 102px;
+  margin-left: 132px;
+  margin-top: 18px;
+  min-width: 719px;
+  padding: 18px 40px;
+}
+
+.editprofile .description {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 135px;
+  margin-top: 106px;
+  min-height: 48px;
+  width: 443px;
+}
+
+.editprofile .rectangle-28-1 {
+  border: 1px solid;
+  border-color: var(--black-4);
+  height: 679px;
+  margin-left: 132px;
+  margin-top: 18px;
+  width: 719px;
+}
+
+.editprofile .skills {
+  letter-spacing: 0;
+  line-height: normal;
+  font-size: 30px;
+}
+
+.editprofile .flex-row-2 {
+  gap: 34px;
+  margin-left: 135px;
+  min-width: 816px;
+}
+
+.editprofile .overlap-group5 {
+  height: 63px;
+  margin-bottom: 1.0px;
+  position: relative;
+  width: 63px;
+}
+
+.editprofile .group-12 {
+  margin-left: 151px;
+  margin-top: 226px;
+  min-width: 349px;
+}
+
+.editprofile .overlap-group6 {
+  height: 98px;
+  position: relative;
+  width: 347px;
+}
+
+.editprofile .rectangle-7 {
+  height: 98px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 331px;
+}
+
+.editprofile .upload-cv {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: 51.4px;
+  font-weight: 400;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 18px;
+  width: 310px;
+}
+
+.editprofile .group-22 {
+  align-self: center;
+  cursor: pointer;
+  justify-content: center;
+  margin-right: 0.98px;
+  margin-top: 486px;
+  min-width: 347px;
+}
+
+.editprofile .overlap-group-1 {
+  background-image: url(../img/rectangle-7-3.svg);
+  background-size: 100% 100%;
+  height: 98px;
+  justify-content: flex-end;
+  min-width: 347px;
+  padding: 3.9px 78.0px;
+}
+
+.editprofile .title {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: 68.7px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 54px;
+  width: 168px;
+}
+
+.editprofile .flex-row-3 {
+  align-items: center;
+  display: flex;
+  margin-top: 18px;
+}
+
+.editprofile .group {
+  align-items: flex-start;
+  display: flex;
+}
+
+.editprofile .name-of {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 48px;
+  width: 357px;
+}
+
+.editprofile .overlap-group-2 {
+  align-items: flex-start;
+  display: flex;
+}
+
+.editprofile .profile-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}

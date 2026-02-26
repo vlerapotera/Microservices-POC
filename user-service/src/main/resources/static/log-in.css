@@ -1,0 +1,135 @@
+/* screen - log-in */
+
+input {
+  height: 100%;
+  width: 100%;
+
+}
+
+.rectangle-4 {
+  height:40px;
+}
+
+.log-in {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 35px 187px;
+  width: 1440px;
+}
+
+.log-in .group-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 117px;
+  margin-left: 2.71px;
+  min-width: 213px;
+}
+
+.log-in .overlap-group {
+  height: 130px;
+  margin-bottom: -18.0px;
+}
+
+.log-in .vector-1 {
+  height: 130px;
+  left: 48px;
+  position: absolute;
+  top: 0;
+  width: 108px;
+}
+
+.log-in .job-quest {
+  color: var(--william);
+  font-family: var(--font-family-lato);
+  font-size: 30.9px;
+  font-weight: 800;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 42px;
+  width: 211px;
+}
+
+.log-in .email {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 241.0px;
+  margin-top: 20px;
+  min-height: 28px;
+  width: 153px;
+}
+
+.log-in .rectangle-4 {
+  margin-top: 16px;
+  height: 40px;
+}
+
+.log-in .password {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 241.0px;
+  margin-top: 40px;
+  min-height: 28px;
+  width: 153px;
+}
+
+.log-in .flex-row {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  gap: 218px;
+  height: 80px;
+  margin-top: 11px;
+  min-width: 730px;
+}
+
+.log-in .title {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 26px;
+  width: 118px;
+}
+
+.overlap-group1 .log-in-1 {
+  margin: 0 auto;
+  display: block;
+}
+
+.log-in .overlap-group1 {
+  height: 61px;
+}
+
+.log-in .rectangle-4-1 {
+  height: 61px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 206px;
+}
+
+.log-in .log-in-1 {
+  cursor: pointer;
+  width: 155px;
+  margin-top: 10px;
+}
+
+.log-in .overlap {
+  position: relative;
+}
+
+.log-in .rectangle {
+  border: 1px solid;
+  border-color: var(--black);
+  height: 40px;
+  width: 394px;
+}
+
+.log-in.screen {
+  max-width: fit-content;
+}

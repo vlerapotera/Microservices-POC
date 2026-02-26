@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="og:type" content="website" />
+  <meta name="twitter:card" content="photo" />
+  <link rel="stylesheet" type="text/css" href="../static/log-in.css" />
+  <link rel="stylesheet" type="text/css" href="../static/styleguide.css" />
+  <link rel="stylesheet" type="text/css" href="../static/globals.css" />
+</head>
+
+<body style="margin: 0; background: #ffffff">
+  <input type="hidden" id="anPageName" name="page" value="log-in" />
+  <div class="container-center-horizontal">
+    <div class="log-in screen">
+      <div class="group-2">
+        <div class="overlap-group overlap">
+          <img class="vector-1" src="../static/img/vector-1-2.svg" alt="Vector 1" />
+          <div class="job-quest">JobQuest</div>
+        </div>
+      </div>
+      <form method="post" action="http://localhost:8080/api/auth/login">
+        <div class="email lato-normal-black-24px">Email</div>
+        <div class="rectangle-4 rectangle">
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="password lato-normal-black-24px">Password</div>
+        <div class="rectangle-4 rectangle">
+          <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        </div>
+        <div class="overlap-group1 overlap">
+          <input type="submit" value="Log In" class="log-in-1 lato-normal-white-32px">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

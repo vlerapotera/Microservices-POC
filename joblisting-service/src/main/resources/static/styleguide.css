@@ -1,0 +1,95 @@
+:root { 
+  --alto: #d9d9d9;
+  --black: #000000;
+  --black-2: #000000cc;
+  --black-3: #000000a3;
+  --black-4: #000000b0;
+  --black-5: #00000021;
+  --black-6: #00000063;
+  --blue-dianne: #1c414c;
+  --fiord: #3c5472eb;
+  --white: #ffffff;
+  --william: #346878;
+ 
+  --font-size-l: 35.3px;
+  --font-size-m: 35px;
+  --font-size-s: 32px;
+  --font-size-xl: 40px;
+  --font-size-xs: 24px;
+  --font-size-xxs: 20px;
+  --font-size-xxxs: 16px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-lato: "Lato", Helvetica;
+}
+.lato-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-normal-black-20px {
+  color: var(--black-2);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-normal-black-40px {
+  color: var(--black-3);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-normal-white-32px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-normal-blue-dianne-24px {
+  color: var(--blue-dianne);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-normal-black-16px {
+  color: var(--black-2);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-extra-bold-william-19-2px {
+  color: var(--william);
+  font-family: var(--font-family-lato);
+  font-size: 19.2px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.lato-normal-fiord-20px {
+  color: var(--fiord);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-normal-black-40px-2 {
+  color: var(--black-6);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}

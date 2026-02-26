@@ -1,0 +1,181 @@
+/* screen - jobdescription */
+
+.jobdescription {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 2754px;
+  padding: 23px 0;
+  width: 1440px;
+}
+
+.jobdescription .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 85px;
+  margin-left: 7.0px;
+  min-width: 1335px;
+}
+
+.jobdescription .group-2 {
+  align-items: flex-end;
+  height: 73px;
+  min-width: 133px;
+  padding: 0 0.0px;
+}
+
+.jobdescription .overlap-group {
+  height: 81px;
+  margin-bottom: -11.19px;
+  position: relative;
+  width: 131px;
+}
+
+.jobdescription .vector-1 {
+  height: 81px;
+  left: 30px;
+  position: absolute;
+  top: 0;
+  width: 67px;
+}
+
+.jobdescription .job-quest {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+  width: 131px;
+}
+
+.jobdescription .log-out {
+  align-self: center;
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1016px;
+  margin-top: 29.0px;
+  min-height: 22px;
+  width: 76px;
+}
+
+.jobdescription .profile {
+  align-self: flex-end;
+  cursor: pointer;
+  margin-left: 40px;
+  min-width: 70px;
+}
+
+.jobdescription .overlap-group1 {
+  border-radius: 35px;
+  height: 70px;
+  position: relative;
+  width: 70px;
+}
+
+.jobdescription .profile-icon {
+  flex-direction: column;
+  gap: 1px;
+  left: 22px;
+  min-height: 37px;
+  position: absolute;
+  top: 16px;
+  width: 25px;
+}
+
+.jobdescription .vector-4 {
+  height: 1px;
+  margin-top: 22px;
+  object-fit: cover;
+  width: 1437px;
+}
+
+.jobdescription .title {
+  color: var(--blue-dianne);
+  font-family: var(--font-family-lato);
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 56px;
+  min-height: 60px;
+  min-width: 852px;
+}
+
+.jobdescription .name {
+  color: #000000bd;
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 25.0px;
+  margin-top: 60px;
+  min-height: 168px;
+  min-width: 287px;
+  text-align: center;
+}
+
+.jobdescription .group-11 {
+  align-items: center;
+  margin-right: 16.72px;
+  margin-top: 27px;
+  min-width: 227px;
+}
+
+.jobdescription .overlap-group2 {
+  height: 64px;
+  position: relative;
+  width: 225px;
+}
+
+.jobdescription .rectangle-7 {
+  height: 64px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 215px;
+}
+
+.jobdescription .apply-now {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: 33.4px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 11px;
+  width: 201px;
+}
+
+.jobdescription .our-client-uks-lea {
+  color: #000000b5;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 35px;
+  margin-right: 18.0px;
+  margin-top: 246px;
+  width: 884px;
+}
+
+.jobdescription .group {
+  cursor: pointer;
+  display: flex;
+}
+
+.jobdescription .profile-1 {
+  align-items: flex-start;
+  display: flex;
+}
+.job-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
